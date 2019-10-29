@@ -32,4 +32,17 @@ public abstract  class Vehicle implements  Moveable{
                 ", year=" + year +
                 '}';
     }
+
+    public String turnLeft(){
+        return "lewo";
+    }
+    public String turnRight(){
+        return "prawo";
+    }
+    public String goForward(){
+        return "prosto";
+    }
+    public String goBack(){
+        return "tył";
+    }
 }
